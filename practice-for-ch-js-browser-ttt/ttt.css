@@ -1,11 +1,29 @@
 /* Your code here */
 ul {
-    display: flex;
-    width: 600px;
     flex-wrap: wrap;
+    display: flex;
+    width: 300px;
+    margin: 30px auto;
+    border: 5px solid black;
+    list-style: none;
+    padding-left: 0;
 }
 
 li {
-    border: 1px solid black;
-    width: 200px;
+    border: 5px solid black;
+    width: 90px;
+    height: 90px;
+    background-color: gray;
+    cursor: pointer;
+    list-style: none;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+li:hover{
+    background-color: yellow;
 }
