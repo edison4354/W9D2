@@ -6,6 +6,4 @@ document.addEventListener("DOMContentLoaded", () => {
   const cavansEl = document.getElementById("canvas")
   const game = new Game();
   const view = new View(game, cavansEl);
-  view.setupBoard();
-  
 });

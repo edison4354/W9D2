@@ -27,3 +27,27 @@ h1 {
 li:hover{
     background-color: yellow;
 }
+
+.x {
+    background-color: white;
+}
+
+.x::after {
+    color: black;
+    content: "x";
+    line-height: 80px;
+    font-size: 60px;
+    margin-left: 28px;
+}
+
+.o {
+    background-color: white;
+}
+
+.o::after {
+    color: black;
+    content: "o";
+    line-height: 80px;
+    font-size: 60px;
+    margin-left: 28px;
+}
